@@ -14,7 +14,7 @@ const Login=()=>
                 <label htmlFor="passw" contenteditable="true" className='username1'>Password</label> 
             </div>  
             <br></br>
-            <button type="submit" className='login'>Login</button>
+            <a href="/layout"><button type="submit" className='login'>Login</button></a>
             </div>
             </center> 
         </form>
