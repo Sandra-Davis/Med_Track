@@ -4,6 +4,7 @@ import {Login} from './components/login/login.component';
 import {Layout} from './components/layout/layout.component';
 import {Addpatient} from './components/addpatient/addpatient.component';
 import {Medicine} from './components/medicine_details/medicine_details.component';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (

@@ -1,17 +1,19 @@
 import './login.styles.css'
+import Pic from "./3.png";
 const Login=()=>
 {
     return(
         <div className='loginp'>
         <form action="" >
             <center className='square'>
+            <img src={Pic} />
             <div className='x'>
             <div className='y'>  
-                <label htmlFor="username"  contenteditable="true" className='username1'>Username</label> 
+                <input type="text" placeholder="Username" className='username1' /> 
             </div> 
             <br></br>
             <div className='y'> 
-                <label htmlFor="passw" contenteditable="true" className='username1'>Password</label> 
+                <input type="text" placeholder="Password" className='username1' />
             </div>  
             <br></br>
             <a href="/layout"><button type="submit" className='login'>Login</button></a>

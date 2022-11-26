@@ -1,13 +1,8 @@
-.layout{
-    background-color: white;  
-    box-sizing: border-box;
-
-     
-    margin-left: 0%;
+.layout{ 
+    box-sizing: border-box;  
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 384px;
+    flex-direction: column; 
+    width:100%;
     height: 700px; 
     background: #2E1E5E;
     border: 5px solid #2E1E5E;
@@ -16,7 +11,6 @@
 .orange{  
     width: 384px;
     height: 69px; 
-    margin-left: 0%;
     background: #E96317;
     display: flex;
     flex-direction: column;
@@ -45,9 +39,7 @@
     color: #FFFFFF;
 
     background-color: transparent;
-    border-color: transparent;
-    margin-top: 15%;
-    margin-left: 15%;
+    border-color: transparent; 
 }
 .occupied{
       
@@ -107,11 +99,16 @@
     
     color: #FFFFFF;
 } 
-.parallel{
-    display: flex;
+.parallel{ 
+    /* display: grid;  
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;  */
+    display:flex;
+    background:#000;
+
 }
-.ward{
-    margin-left: 150px;
+.ward{  
+
 }
 .button1{     
     display: flex; 
@@ -129,11 +126,13 @@
     border-radius: 10px;     
     border-color: transparent;
 }
-.column{    
-    margin-left: 150px; 
+.column{   
     display: grid;  
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto auto auto; 
+    grid-template-columns: auto auto; 
     row-gap: 30px;
-    column-gap: 30px;
+    column-gap: 30px; 
+    background: #000;  
 }  
+.white{
+    margin-left: 250px;
+}
