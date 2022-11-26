@@ -1,6 +1,6 @@
 import './layout.styles.css'
 import React,{useState} from 'react';
-import { useEffect } from 'react';
+import { useEffect } from 'react'; 
  
 var Nurse_Name="nurse";
 const Layout=()=>
