@@ -119,13 +119,15 @@
     height: 93px;
     background: #D9D9D9;
     border-radius: 10px; 
+    border-color: transparent;
 }
 .button2{   
     display: flex;  
     width: 227px;
     height: 93px;
     background: #E96317;
-    border-radius: 10px;
+    border-radius: 10px;     
+    border-color: transparent;
 }
 .column{    
     margin-left: 150px; 

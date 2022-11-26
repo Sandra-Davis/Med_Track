@@ -8,6 +8,7 @@ import {Medicine} from './components/medicine_details/medicine_details.component
 const App = () => {
   return (
     <BrowserRouter>
+    <fetchapi/>
     <Routes>
       <Route path="" element={<Home />} />
       <Route path="/login" element={<Login/>} />     
